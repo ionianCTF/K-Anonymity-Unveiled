@@ -47,3 +47,44 @@ In this workshop, participants will dive into the essential concepts and attribu
 -   Applying k-anonymity techniques to real-world scenarios.
 
 By the end of this workshop, participants will have gained practical knowledge and skills to confidently implement k-anonymity techniques in their own projects and contribute to ensuring data privacy and security.
+
+# Example Workflow
+## Introduction
+In this learning scenario, we will delve into the implementation details of the `k_anonymize` function, which achieves k-Anonymity on datasets. We will focus on understanding the function's attributes, the logic behind it, and its role in preserving privacy while maintaining data utility.
+
+## Step 1: Reading Dataset Description
+- Start by reading the dataset description to understand the data structure and quasi-identifiers (attributes that can potentially identify individuals).
+
+## Step 2: Understanding the k_anonymize Function
+- Import the necessary libraries (`csv`, `numpy`, `matplotlib.pyplot`).
+- Examine the provided code for the `microaggregate` and `k_anonymize` functions.
+- Understand the purpose of each function and how they contribute to achieving k-Anonymity.
+
+## Step 3: Examining k_anonymize Function Attributes
+The k_anonymize function takes several attributes:
+- file_path: Path to the CSV dataset.
+- k: Desired level of k-Anonymity.
+- sensitive_features: List of attributes that should be protected.
+- generalization_intervals: Optional dictionary for customizing generalization levels.
+Discuss the significance of each attribute and how they influence the anonymization process.
+
+
+## Step 4: Hands-On Implementation
+- Execute the provided code in the notebook.
+- Observe the code in action by specifying different values for attributes.
+- Analyze the generated anonymized datasets and the percentage of anonymized rows.
+
+## Step 5: Experimentation and Customization
+- Modify the attributes to experiment with different scenarios:
+- Change the value of k to observe its impact on anonymity.
+- Explore different combinations of sensitive_features to understand their roles.
+- Adjust generalization_intervals to customize the generalization levels of attributes.
+- Note the trade-offs between privacy protection and data utility for various scenarios.
+
+## Step 6: Visualizing Results
+- Plot the percentage of anonymized rows against the value of k.
+- Compare results between anonymized datasets with and without generalization.
+- Visualize the impact of different quasi-identifiers on the anonymization process.
+
+## Conclusion
+Through this interactive learning scenario, you have gained insights into the implementation of k-Anonymity using the k_anonymize function. You have explored its attributes, experimented with different scenarios, and visualized the outcomes. This knowledge equips you with the skills to effectively implement k-Anonymity in real-world scenarios, balancing privacy protection and data utility.
