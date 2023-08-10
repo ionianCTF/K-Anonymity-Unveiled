@@ -1,0 +1,50 @@
+# Workshop Description: Learning Scenario 04 - Applying Generalization on One or Multiple Attributes**
+
+In this workshop, participants will delve into the intricacies of data generalization and its impact on the anonymization process. Through hands-on activities and comprehensive analysis, participants will explore the effects of applying generalization techniques on single and multiple quasi-identifiers, while also considering varying `k` values. The workshop aims to provide participants with a practical understanding of how to achieve effective k-anonymity while employing data generalization.
+
+**Duration:** 2.5 hours
+
+**Target Audience:** Data analysts, data scientists, privacy professionals, and individuals interested in mastering the application of data generalization in k-anonymity.
+
+**Prerequisites:** Familiarity with k-anonymity concepts and basic understanding of Python programming.
+
+**Agenda:**
+
+1.  **Introduction to Data Generalization (15 mins)**
+    
+    -   Overview of data generalization and its role in privacy protection.
+    -   Discussion on the trade-off between privacy and information loss.
+2.  **Applying Generalization to a Single Quasi-Identifier (45 mins)**
+    
+    -   Guided exercise: Applying generalization to a single attribute (e.g., ages).
+    -   Observing the impact of varying `k` values on the anonymization outcome.
+    -   Analyzing the percentage of anonymized data and assessing privacy-utility balance.
+3.  **Generalization with Multiple Attributes (60 mins)**
+    
+    -   Explanation of applying generalization to multiple quasi-identifiers.
+    -   Hands-on activity: Defining distinct generalization ranges for multiple attributes.
+    -   Adjusting `k` values to achieve the desired level of anonymity.
+    -   Analysis of anonymized datasets resulting from various generalization configurations.
+4.  **Understanding Privacy-Utility Trade-offs (45 mins)**
+    
+    -   Group discussion: Sharing observations and insights from the experiments.
+    -   Identifying the trade-offs between privacy enhancement and information loss.
+    -   Reflecting on different levels of privacy achieved for various attributes.
+5.  **Optimizing Generalization Intervals and `k` Values (15 mins)**
+    
+    -   Discussion on how to make informed decisions about generalization ranges and `k` values.
+    -   Strategies for achieving a balance between privacy preservation and data utility.
+6.  **Q&A and Discussion (15 mins)**
+    
+    -   Addressing participant questions and facilitating open discussion.
+    -   Encouraging participants to share challenges and lessons learned.
+
+**Key Takeaways:**
+
+-   Hands-on experience in applying generalization to single and multiple quasi-identifiers.
+-   Understanding the relationship between generalization, `k` values, and achieved anonymity.
+-   Evaluating the trade-offs between privacy protection and data utility.
+-   Developing skills to make informed decisions regarding generalization intervals and `k` values.
+-   Equipping participants to effectively implement generalization techniques for privacy-preserving data anonymization.
+
+By the end of this workshop, participants will have developed a comprehensive understanding of the practical application of data generalization in achieving k-anonymity. They will be better prepared to strike a balance between enhancing privacy and maintaining data utility by employing appropriate generalization intervals and `k` values.
