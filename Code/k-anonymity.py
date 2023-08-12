@@ -55,18 +55,18 @@ def k_anonymize(file_path, k, quasiidentifiers, generalization_intervals={}):
             anon_rows = anon_rows + 1
     percentage = (anon_rows/row_count)*100
 
-    # Write the anonymous data to a new CSV file
-    with open('/content/sample_data/anonymised.csv', 'w', newline='') as file:
+    # Write the anonymous data to a new CSV file (put the correct folder or file-path of the csv)
+    with open('anonymised.csv', 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(header)
         writer.writerows(data)
     return percentage
 
-#Example Execution
+#Example Execution (put the correct folder or file-path of the csv e.g. heart.csv)
 
 #anon_percentage=k_anonymize('heart.csv', 10, ["Age","Cholesterol"], generalization_intervals={"Age": 15})
 #print (anon_percentage)
 
-#Other cases
-#k_anonymize('/content/sample_data/heart.csv', 3, ["Age","Cholesterol"])
-#k_anonymize('/content/sample_data/heart.csv', 3, ["Cholesterol","FastingBS"], generalization_intervals={"Cholesterol": 80})
+#Other cases (put the correct folder or file-path of the csv e.g. heart.csv)
+#k_anonymize('heart.csv', 3, ["Age","Cholesterol"])
+#k_anonymize('heart.csv', 3, ["Cholesterol","FastingBS"], generalization_intervals={"Cholesterol": 80})
