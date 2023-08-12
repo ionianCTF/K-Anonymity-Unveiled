@@ -37,4 +37,4 @@ Through code snippets, explanations, and visualizations, participants will gain 
 
 ##  
 
-This interactive guide equips participants with the knowledge and practical skills needed to effectively implement k-Anonymity and privacy-preserving data anonymization techniques. By working through these learning scenarios, participants gain insights into the complexities of balancing privacy and data utility, making informed decisions, and ensuring compliance with privacy regulations. The comprehensive understanding acquired will empower participants to apply these techniques in real-world scenarios while maintaining privacy and data utility.
+This interactive guide provides knowledge and practical skills needed to effectively implement k-Anonymity. By working through these learning scenarios, you gain insights into the complexities of balancing privacy and data utility, making informed decisions, and ensuring compliance with privacy regulations. The comprehensive understanding of k-anonymity and its fundamentals will help you to apply these techniques in real-world scenarios.
