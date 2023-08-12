@@ -63,7 +63,10 @@ def k_anonymize(file_path, k, quasiidentifiers, generalization_intervals={}):
     return percentage
 
 #Example Execution
-    
+
+#anon_percentage=k_anonymize('heart.csv', 10, ["Age","Cholesterol"], generalization_intervals={"Age": 15})
+#print (anon_percentage)
+
+#Other cases
 #k_anonymize('/content/sample_data/heart.csv', 3, ["Age","Cholesterol"])
-#anon_percentage=k_anonymize('/content/sample_data/heart.csv', 10, ["Age","Cholesterol"], generalization_intervals={"Age": 15})
 #k_anonymize('/content/sample_data/heart.csv', 3, ["Cholesterol","FastingBS"], generalization_intervals={"Cholesterol": 80})
