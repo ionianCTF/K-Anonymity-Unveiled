@@ -21,7 +21,7 @@ def microaggregate(data, column, k):
         data.at[index, column] = aggregated_vals[row[column]]
     return data
 
-def k_anonymize(file_path, k, sensitive_features, generalization_intervals={}):
+def k_anonymize(file_path, k, quasiidentifiers, generalization_intervals={}):
     # Read the CSV file
     anon_rows = 0
     with open(file_path, 'r') as file:
@@ -29,8 +29,8 @@ def k_anonymize(file_path, k, sensitive_features, generalization_intervals={}):
         header = next(reader)
         data = [row for row in reader]
         row_count = len(data)
-    # Find the indices of the sensitive columns
-    sensitive_indices = [header.index(feature) for feature in sensitive_features]
+    # Find the indices of the quasiidentifiers
+    quasi_indices = [header.index(feature) for feature in quasiidentifiers]
 
     # Perform the generalization of attributes if necessary
     for attribute, interval in generalization_intervals.items():
@@ -38,19 +38,19 @@ def k_anonymize(file_path, k, sensitive_features, generalization_intervals={}):
         for row in data:
             row[attribute_index] = str(int(np.floor(float(row[attribute_index])/interval)) * interval) + "-" + str((int(np.floor(float(row[attribute_index])/interval)) + 1) * interval)
 
-    # Create a dictionary to store the count of each combination of sensitive values
+    # Create a dictionary to store the count of each combination of quasiidentifier values
     counts = {}
 
-    # Count the occurrences of each combination of sensitive values
+    # Count the occurrences of each combination of quasiidentifier values
     for row in data:
-        value = tuple([row[i] for i in sensitive_indices])
+        value = tuple([row[i] for i in quasi_indices])
         counts[value] = counts.get(value, 0) + 1
 
     # Perform the k-anonymization
     for row in data:
-        value = tuple([row[i] for i in sensitive_indices])
+        value = tuple([row[i] for i in quasi_indices])
         if counts[value] < k:
-            for i in sensitive_indices:
+            for i in quasi_indices:
                 row[i] = '*' * len(row[i])
             anon_rows = anon_rows + 1
     percentage = (anon_rows/row_count)*100
