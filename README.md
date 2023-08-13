@@ -6,34 +6,33 @@ Through code snippets, explanations, and visualizations, participants will gain 
 ### Learning Scenarios
 
 1.  **Scenario 01 - Introduction to k-Anonymity and Quasi-Identifiers**
-    
-    -   Learners are introduced to the concept of k-Anonymity and the role of quasi-identifiers in the anonymization process.
-    -   Step-by-step code explanations demonstrate the basic functionality of the k-anonymize function.
-    -   Participants understand how to identify and declare quasi-identifiers for preserving privacy.
+- Introduction to the concept of k-Anonymity and the role of quasi-identifiers in anonymization.
+- Step-by-step code explanations illustrating the basic functionality of the k-anonymize function.
+- Understanding the identification and declaration of quasi-identifiers for privacy preservation.
+- 
 2.  **Scenario 02 - Exploring the Impact of k and Quasi-Identifiers**
-    
-    -   Learners delve into the impact of different values of k and variations in quasi-identifiers on the level of anonymity.
-    -   Code snippets guide participants in experimenting with various k values and attribute selections.
-    -   The trade-off between privacy protection and data utility is observed and understood.
+- Exploration of the influence of varying k values and quasi-identifiers on anonymity levels.
+- Guided experimentation with different k values and attribute selections using code snippets.
+- Observation and comprehension of the trade-off between privacy protection and data utility.
+  
 3.  **Scenario 03 - Importance of Attribute Selection in Anonymization**
+- Emphasis on the significance of attribute selection in anonymization.
+- Experimentation with changing quasi-identifiers and varying k values to assess their impact on anonymity.
+- Development of an understanding regarding the selection of relevant quasi-identifiers.
     
-    -   This scenario emphasizes the significance of attribute selection.
-    -   Participants experiment with changing quasi-identifiers and varying k values to observe their impact on anonymity.
-    -   An understanding of the importance of selecting relevant quasi-identifiers is developed.
 4.  **Scenario 04 - Applying Generalization on Attributes**
-    
-    -   The focus is on exploring the impact of data generalization.
-    -   Participants learn how to apply generalization to single and multiple attributes to achieve k-Anonymity.
-    -   The interplay between generalization, k values, and privacy preservation is comprehended.
+- Focus on exploring the effects of data generalization.
+- Learning the application of generalization to single and multiple attributes for achieving k-Anonymity.
+- Comprehension of the interplay between generalization, k values, and preservation of privacy.
+
 5.  **Scenario 05 - Visualization of the Anonymization Process**
-    
-    -   Learners are introduced to visualization techniques for understanding and evaluating the anonymization process.
-    -   Visualizations showcase the trade-off between anonymity and information loss for different attributes and generalization levels.
+- Introduction to visualization techniques for comprehending and evaluating the anonymization process.
+- Visualizations illustrating the balance between anonymity and information loss across attributes and generalization levels.
+
 6.  **Scenario 06 - Defining Privacy Requirements and Balancing Privacy Preservation**
-    
-    -   This scenario focuses on defining privacy requirements and achieving a balance between privacy preservation and information loss.
-    -   Learners understand the importance of privacy regulations, policies, and ethical considerations.
-    -   Through iterative testing, participants learn to achieve an optimal balance between privacy and utility.
+- Concentration on defining privacy requirements and achieving equilibrium between privacy preservation and information loss.
+- Understanding the significance of privacy regulations, policies, and ethical considerations.
+- Iterative testing to acquire skills in striking an optimal balance between privacy and utility.
 
 ##  
 
