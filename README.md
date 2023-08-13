@@ -9,7 +9,7 @@ Through code snippets, explanations, and visualizations, participants will gain 
 - Introduction to the concept of k-Anonymity and the role of quasi-identifiers in anonymization.
 - Step-by-step code explanations illustrating the basic functionality of the k-anonymize function.
 - Understanding the identification and declaration of quasi-identifiers for privacy preservation.
-  
+ 
 2.  **Scenario 02 - Exploring the Impact of k and Quasi-Identifiers**
 - Exploration of the influence of varying k values and quasi-identifiers on anonymity levels.
 - Guided experimentation with different k values and attribute selections using code snippets.
