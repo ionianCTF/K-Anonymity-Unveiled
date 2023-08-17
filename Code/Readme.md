@@ -4,4 +4,4 @@ This code provides the implementation of k-anonymity. It offers a practical impl
 
 - **k-anonymity.py:** This Python script is responsible for implementing the k-anonymity technique on a given dataset.
 - **k-anonymity-plot.py:** This Python script focuses on generating visualizations or plots related to k-anonymity.
-- **heart.csv**: Example dataset used for this research.
+- **heart.csv**: Example dataset used for this research (originally from https://github.com/nsubhaan/Heart).
