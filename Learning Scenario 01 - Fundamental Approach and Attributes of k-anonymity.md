@@ -2,6 +2,8 @@
 
 In this workshop, participants will dive into the essential concepts and attributes of k-anonymity, a fundamental technique in data privacy and protection. Through a hands-on and interactive approach, participants will gain an in-depth understanding of the implementation details of the `k_anonymize` function and its associated attributes. By working with real datasets, experimenting with code, and exploring various scenarios, attendees will develop practical skills in applying k-anonymity to protect sensitive information while maintaining data utility.
 
+![alt text](Scenario-01/Scenario-01-1.png "Learning Scenario 01 - Workflow")
+
 **Duration:** 3 hours
 
 **Target Audience:** Data analysts, data scientists, privacy professionals, and anyone interested in understanding and implementing k-anonymity techniques.
