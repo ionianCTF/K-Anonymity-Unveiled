@@ -2,6 +2,8 @@
 
 In this workshop, participants will delve into evaluating the effectiveness of k-anonymity implementation through a comprehensive exploration of attribute selection and the choice of the `k` value. Through practical exercises and hands-on activities, participants will gain insights into how different attribute selections and `k` values impact the achieved level of anonymity, privacy protection, and data utility.
 
+![alt text](Scenario-02/Scenario-02-1.png "Learning Scenario 02 - Workflow")
+
 **Duration:** 2.5 hours
 
 **Target Audience:** Data analysts, data scientists, privacy professionals, and individuals seeking to fine-tune k-anonymity techniques for specific privacy and utility requirements.
