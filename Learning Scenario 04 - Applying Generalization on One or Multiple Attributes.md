@@ -2,6 +2,8 @@
 
 In this workshop, participants will delve into the intricacies of data generalization and its impact on the anonymization process. Through hands-on activities and comprehensive analysis, participants will explore the effects of applying generalization techniques on single and multiple quasi-identifiers, while also considering varying `k` values. The workshop aims to provide participants with a practical understanding of how to achieve effective k-anonymity while employing data generalization.
 
+![alt text](Scenario-04/Scenario-04-1.png "Learning Scenario 04 - Workflow")
+
 **Duration:** 2.5 hours
 
 **Target Audience:** Data analysts, data scientists, privacy professionals, and individuals interested in mastering the application of data generalization in k-anonymity.
