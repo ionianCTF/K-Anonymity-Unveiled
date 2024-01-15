@@ -2,7 +2,7 @@
 
 In this workshop, participants will discover the power of visualization as a tool to understand and evaluate the outcomes of k-anonymity. Through the creation of plots that depict the anonymization process, participants will gain a holistic view of the trade-offs between anonymity, information loss, and data utility. By experimenting with different attributes, generalization intervals, and `k` values, participants will develop insights to make informed decisions when implementing k-anonymity techniques.
 
-![alt text](Scenario-01/Scenario-05-1.png "Learning Scenario 05 - Workflow")
+![alt text](Scenario-05/Scenario-05-1.png "Learning Scenario 05 - Workflow")
 
 **Duration:** 2 hours
 
