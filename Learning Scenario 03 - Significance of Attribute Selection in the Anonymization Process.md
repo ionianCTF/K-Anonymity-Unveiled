@@ -2,6 +2,8 @@
 
 In this workshop, participants will gain a deep understanding of the critical role that attribute selection plays in the effectiveness of k-anonymity techniques. Through hands-on experimentation and analysis, attendees will explore the impact of various quasi-identifiers and `k` values on the anonymization process. By altering the arguments of the k-anonymity function, participants will uncover insights into how attribute selection influences privacy preservation and the overall success of anonymization.
 
+![alt text](Scenario-03/Scenario-03-1.png "Learning Scenario 03 - Workflow")
+
 **Duration:** 2 hours
 
 **Target Audience:** Data analysts, data scientists, privacy professionals, and individuals seeking to enhance their knowledge of k-anonymity and attribute selection.
