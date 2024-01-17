@@ -1,4 +1,4 @@
-# Workshop Description: Learning Scenario 02 - Outputs of k-anonymity based on Attribute Selection and k-Value Selection**
+# Workshop Description: Learning Scenario 02: Attribute Selection and K-value Selection**
 
 In this workshop, participants will delve into evaluating the effectiveness of k-anonymity implementation through a comprehensive exploration of attribute selection and the choice of the `k` value. Through practical exercises and hands-on activities, participants will gain insights into how different attribute selections and `k` values impact the achieved level of anonymity, privacy protection, and data utility.
 
