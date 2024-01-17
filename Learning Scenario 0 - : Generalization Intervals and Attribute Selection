@@ -1,4 +1,4 @@
-# Workshop Description: Learning Scenario 03 - Significance of Attribute Selection in the Anonymization Process**
+# Workshop Description: Learning Scenario 03: Generalization Intervals and Attribute Selection**
 
 In this workshop, participants will gain a deep understanding of the critical role that attribute selection plays in the effectiveness of k-anonymity techniques. Through hands-on experimentation and analysis, attendees will explore the impact of various quasi-identifiers and `k` values on the anonymization process. By altering the arguments of the k-anonymity function, participants will uncover insights into how attribute selection influences privacy preservation and the overall success of anonymization.
 
