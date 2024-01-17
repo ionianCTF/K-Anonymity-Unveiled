@@ -1,4 +1,4 @@
-# Workshop Description: Learning Scenario 06 - Balancing Privacy Needs and Information Loss in Anonymization**
+# Workshop Description: Learning Scenario 05: Privacy Needs and Privacy Requirements**
 
 In this workshop, participants will delve into the critical task of defining privacy requirements and achieving a delicate equilibrium between privacy preservation and information loss in the anonymization process. Guided by regulatory frameworks, internal policies, legal constraints, and ethical considerations, participants will learn how to tailor attribute selection and anonymization parameters to meet specific privacy needs while minimizing information loss.
 
